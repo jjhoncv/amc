@@ -1,0 +1,139 @@
+@import url("/assets/css/fonts.css");
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: "roboto-condensed";
+  font-size: 16px;
+}
+
+.content {
+  max-width: 1024px;
+  margin: auto 20px;
+}
+
+.content2 {
+  margin: 0 20px;
+  max-width: 1024px;
+
+}
+
+.banner img{
+  width: 100%;
+}
+
+/* description */
+.description ul{
+  margin: 0;
+  list-style: none;
+  padding: 0;
+}
+
+.description ul li {
+  padding: 8px 0;
+  display: flex;
+  align-items: center;
+}
+
+.description ul li img{
+  margin-right: 10px;
+}
+
+/* share */
+.share {
+  margin-top: 20px;
+}
+.share  .btn-whatsapp {
+  width: 144px;
+  height: 42px;
+  background-color: #3BA72F;
+  color: white;
+  display: block;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  text-decoration: none;
+}
+.share  .btn-whatsapp img {
+  margin-left: 13px;
+  margin-right: 9px;
+}
+.share .text-required {
+  color: #7F8183;
+}
+
+/* stage */
+.stage {
+  display: flex;
+  flex-direction: column;
+}
+.stage img{
+  width: 100%;
+}
+
+/* tickets */
+.tickets{
+  flex-direction: column;
+  display: flex;
+}
+.tickets table{
+  width: 100%;
+}
+
+.tickets table th ,
+.tickets table td {
+  text-align: right;
+}
+
+.tickets table th.first,
+.tickets table td.first {
+  text-align: left;
+}
+
+
+.tickets table td,
+.tickets table th {
+  height: 30px;
+}
+
+/* more */
+.more {
+  color: #7F8183;
+  display: flex;
+  flex-direction: column;
+}
+
+.show-desktop {
+  display: none;
+}
+.show-mobile {
+  display: block;
+}
+
+@media only screen and (min-width: 768px) {
+  .content {
+    margin-left: 20px;
+  }
+  .content2 {
+    margin: 0 auto;
+  }
+  .img-stages {
+    text-align: center;
+    margin: 0 auto;
+  }
+
+  .container{
+    max-width: 1024px;
+    margin: 0 auto;
+    display: flex;
+  }
+  .stage img {
+    max-width: 600px;
+  }
+  .show-desktop {
+    display: block;
+  }
+  .show-mobile {
+    display: none;
+  }
+}
