@@ -1,20 +1,20 @@
 @font-face {
   font-family: roboto-condensed;
   font-weight: 300;
-  src: url("/assets/fonts/Roboto_Condensed/robotocondensed-light.woff2") format('woff2'), 
-    url('/assets/fonts/Roboto_Condensed/robotocondensed-light.woff') format('woff');
+  src: url("https://jjhoncv.github.io/amc/assets/fonts/Roboto_Condensed/robotocondensed-light.woff2") format('woff2'), 
+    url('https://jjhoncv.github.io/amc/assets/fonts/Roboto_Condensed/robotocondensed-light.woff') format('woff');
 }
 
 @font-face {
   font-family: roboto-condensed;
   font-weight: 500;
-  src: url("/assets/fonts/Roboto_Condensed/robotocondensed-regular.woff2") format('woff2'), 
-    url('/assets/fonts/Roboto_Condensed/robotocondensed-regular.woff') format('woff');
+  src: url("https://jjhoncv.github.io/amc/assets/fonts/Roboto_Condensed/robotocondensed-regular.woff2") format('woff2'), 
+    url('https://jjhoncv.github.io/amc/assets/fonts/Roboto_Condensed/robotocondensed-regular.woff') format('woff');
 }
 
 @font-face {
   font-family: roboto-condensed;
   font-weight: bold;
-  src: url("/assets/fonts/Roboto_Condensed/robotocondensed-bold.woff2") format('woff2'), 
-    url('/assets/fonts/Roboto_Condensed/robotocondensed-bold.woff') format('woff');
+  src: url("https://jjhoncv.github.io/amc/assets/fonts/Roboto_Condensed/robotocondensed-bold.woff2") format('woff2'), 
+    url('https://jjhoncv.github.io/amc/assets/fonts/Roboto_Condensed/robotocondensed-bold.woff') format('woff');
 }

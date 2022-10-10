@@ -1,4 +1,4 @@
-@import url("/assets/css/fonts.css");
+@import url("https://jjhoncv.github.io/amc/assets/css/fonts.css");
 * {
   box-sizing: border-box;
 }
@@ -76,6 +76,11 @@ body {
   flex-direction: column;
   display: flex;
 }
+
+.tickets .text-underline {
+  color: rgb(0, 30, 255);
+}
+
 .tickets table{
   width: 100%;
 }
@@ -128,7 +133,7 @@ body {
     display: flex;
   }
   .stage img {
-    max-width: 600px;
+    max-width: 800px;
   }
   .show-desktop {
     display: block;
