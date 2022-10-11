@@ -59,7 +59,7 @@ body {
   margin-right: 9px;
 }
 .share .text-required {
-  color: #7F8183;
+  color: #93959b;
 }
 
 /* stage */
@@ -103,7 +103,7 @@ body {
 
 /* more */
 .more {
-  color: #7F8183;
+  color: #93959b;
   display: flex;
   flex-direction: column;
 }
